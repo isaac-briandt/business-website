@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: Georgia;
+    src: url('Georgia.ttf');
+}
+
+:root {
+    font-family: "Georgia";
+}
+
+.inter {
+    font-family: "Inter", system-ui;
+}
