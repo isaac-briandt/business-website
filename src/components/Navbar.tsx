@@ -52,7 +52,7 @@ export default function Navbar() {
           </button>
 
           {isBurgerOpen && (
-            <ul className="absolute transition ease-out duration-100 right-0 z-10 mt-1 w-56 origin-top-right rounded-md bg-white shadow-lg ring-black ring-opacity-5 focus:outline-none">
+            <ul className="absolute transition ease-out duration-100 right-0 z-10 mt-1 w-56 origin-top-right rounded-md bg-white p-3 shadow-lg ring-black ring-opacity-5 focus:outline-none">
               <li>
                 <a href="" className="font-normal text-[20px]">
                   Home
