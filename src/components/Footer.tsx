@@ -7,7 +7,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="sm:mt-[100px] w-full bg-jadaad-blue border border-[#CCCCCC]">
+    <div className="sm:mt-[100px] mt-[50px] w-full bg-jadaad-blue border border-[#CCCCCC]">
       <div className="flex justify-start items-center px-[50px] sm:pl-[100px]">
         <div className="flex sm:flex-row flex-col justify-center gap-[75px] items-start">
           <div className="flex flex-col pt-[58px]">

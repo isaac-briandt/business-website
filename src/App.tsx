@@ -19,7 +19,7 @@ export default function App() {
     <div className="w-full h-full flex flex-col items-center flex-wrap">
       <Navbar />
       <main className="w-full h-full">
-        <div className="bg-[url('/bg-img.png')] bg-no-repeat bg-cover w-full sm:h-[853px]">
+        <div className="bg-[url('/bg-img.png')] bg-no-repeat bg-cover w-full flex-wrap sm:h-[853px]">
           <div className="sm:pt-[185px] pt-[92px] flex flex-col items-center sm:px-[176px] px-[10px]">
             <p className="font-normal text-[48px] text-white text-left">
               Power your Growth: Innovative solutions for a brighter Future
@@ -33,7 +33,7 @@ export default function App() {
             <button className="mt-[70px] w-[279px] h-[52px] bg-jadaad-blue text-center text-[18px] text-white font-normal rounded-md">
               Get Started
             </button>
-            <div className="mt-[92px] mb-[37px] flex sm:flex-row flex-col justify-center items-center sm:gap-[54px] gap-3">
+            <div className="mt-[92px] mb-[37px] flex sm:flex-row flex-col flex-wrap justify-center items-center sm:gap-[54px] gap-3">
               <img
                 src={GOOGLE_PLAY_IMG}
                 width={224}
@@ -50,7 +50,7 @@ export default function App() {
               />
             </div>
           </div>
-          <div className="sm:absolute flex bottom-0 left-1/2 sm:transform sm:-translate-x-1/2 sm:translate-y-64 bg-white py-[49px] px-[82px] sm:mx-0 mx-2 rounded-t-[20px] sm:rounded-[20px] ">
+          <div className="sm:absolute flex flex-wrap bottom-0 left-1/2 sm:transform sm:-translate-x-1/2 sm:translate-y-64 bg-white py-[49px] px-[82px] sm:mx-0 mx-2 rounded-t-[20px] sm:rounded-[20px] ">
             <div className="w-full flex sm:flex-row flex-col sm:justify-between items-center sm:px-[82px] sm:space-y-0 space-y-5">
               <TipSection title="Valuable Insights" />
               <TipSection title="Quality Services" />
@@ -58,9 +58,9 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="flex sm:flex-row flex-col-reverse w-full relative bg-white items-center mt-[300px]">
-          <div className="bg-[#F2F2F2A6] w-full flex flex-col justify-center items-center px-[50px] sm:px-[100px] py-[38px]">
-            <div className="flex flex-col justify-center items-start gap-[24px] w-full">
+        <div className="flex sm:flex-row flex-col-reverse w-full relative bg-white items-center sm:mt-[300px] mt-[50px] sm:bg-none bg-[url('/girl-typing.png')] bg-no-repeat bg-cover">
+          <div className="sm:bg-[#F2F2F2A6] bg-none w-full flex flex-col justify-center items-center px-[50px] sm:px-[100px] py-[38px] backdrop-blur-xl">
+            <div className="flex flex-col text-black justify-center items-start gap-[24px] w-full">
               <p className="font-normal text-[36px] leading-[45px] text-center text-wrap">
                 Our Mission
               </p>
@@ -155,7 +155,7 @@ export default function App() {
         <p className="font-normal sm:text-[45px] text-[35px] leading-[56px] text-center">
           Frequently Asked Questions
         </p>
-        <div className="flex sm:flex-row flex-col-reverse w-full bg-white items-center justify-center mt-[113px] sm:px-[100px]">
+        <div className="flex sm:flex-row flex-col-reverse flex-grow w-full bg-white items-center justify-center mt-[113px] sm:px-[100px]">
           <div className="flex flex-col w-full">
             <div className="flex flex-col py-[21px] w-full sm:h-[482px] sm:px-0 px-2">
               {[1, 2, 3, 4, 5].map((items, idx) => {
@@ -257,7 +257,7 @@ export default function App() {
           </div>
         </div>
         <div className="sm:mt-[100px] sm:px-[100px] w-full sm:bg-none bg-[url('/women-in-suits.png')] bg-no-repeat bg-cover">
-          <div className="w-full flex sm:flex-row flex-col gap-[78px] sm:px-0 px-[30px] backdrop-blur-sm">
+          <div className="w-full flex sm:flex-row flex-col gap-[78px] sm:px-0 px-[30px] backdrop-blur-lg">
             <img
               src={WOMEN_IN_SUITS}
               className="sm:pl-[76px] sm:block hidden"
