@@ -219,7 +219,7 @@ export default function App() {
               "Financial Management",
               "Financial Management",
               "Financial Management",
-            ].map((items, idx) => {
+            ].map((_, idx) => {
               return (
                 <div className="rounded-[20px] w-full bg-[#54C5F933]" key={idx}>
                   <div className="flex flex-col justify-start py-[39px] px-[26px]">
