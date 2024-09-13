@@ -158,7 +158,7 @@ export default function App() {
         <div className="flex sm:flex-row flex-col-reverse flex-grow w-full bg-white items-center justify-center mt-[113px] sm:px-[100px]">
           <div className="flex flex-col w-full">
             <div className="flex flex-col py-[21px] w-full sm:h-[482px] sm:px-0 px-2">
-              {[1, 2, 3, 4, 5].map((items, idx) => {
+              {[1, 2, 3, 4, 5].map((_, idx) => {
                 return (
                   <div
                     className="h-full flex justify-start items-center"
